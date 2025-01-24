@@ -3,8 +3,8 @@ Description=Monitor Website Service
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/pi/monitorWebsite/monitorWebsite.py
-WorkingDirectory=/home/pi/monitorWebsite
+ExecStart=/usr/bin/python3 /home/pi/monitorWebsite/src/monitorWebsite.py
+WorkingDirectory=/home/pi/monitorWebsite/src/
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
